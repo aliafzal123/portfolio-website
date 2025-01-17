@@ -7,6 +7,6 @@
     "value-keyword-case": "lower",
     "selector-type-case": "lower",
     "block-no-empty": true,
-    "font-family-name-quotes": "always-quote"  // Ensure quotes are added to font names
+    "font-family-name-quotes": "always-quote"  
   }
 }
