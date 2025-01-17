@@ -1,10 +1,12 @@
 {
-    "rules": {
-        "declaration-block-no-duplicate-properties": true,
-        "no-duplicate-selectors": true,
-        "property-case": "lower",
-        "value-keyword-case": "lower",
-        "selector-type-case": "lower",
-        "block-no-empty": true
-    }
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "declaration-block-no-duplicate-properties": true,
+    "no-duplicate-selectors": true,
+    "property-no-unknown": true,
+    "value-keyword-case": "lower",
+    "selector-type-case": "lower",
+    "block-no-empty": true,
+    "font-family-name-quotes": "always-quote"  // Ensure quotes are added to font names
+  }
 }
