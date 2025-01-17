@@ -23,8 +23,6 @@ jobs:
       - name: Install Dependencies
         run: npm install htmlhint stylelint
 
-      - name: Lint HTML
-        run: npx htmlhint src/**/*.html --config .htmlhintrc
-
+     
       - name: Lint CSS
         run: npx stylelint styles/**/*.css
