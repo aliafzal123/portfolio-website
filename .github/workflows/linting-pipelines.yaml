@@ -26,6 +26,9 @@ jobs:
       - name: Fix Permissions
         run: chmod +x node_modules/.bin/htmlhint
 
+      - name: Fix Permissions
+        run: chmod +x node_modules/.bin/stylelint
+
       - name: Lint HTML
         run: npx htmlhint src/**/*.html
 
