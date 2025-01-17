@@ -26,5 +26,8 @@ jobs:
       - name: Lint HTML
         run: npx htmlhint src/**/*.html
 
+      - name: Fix Permissions
+        run: chmod +x node_modules/.bin/htmlhint
+
       - name: Lint CSS
         run: npx stylelint styles/**/*.css
